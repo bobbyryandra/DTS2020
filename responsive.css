@@ -1,0 +1,45 @@
+/*---------------[AWAL RESPONSIVE Ekstra2 (FORM) BY D. Willy R.#2469]-------------*/
+/* Untuk Tablet */
+@media all and (max-width: 1170px) {
+    .form-content-item {
+        width: 100%;
+    }
+
+    /*---------------[AKHIR RESPONSIVE Ekstra2 (FORM) BY D. Willy R.#2469]-------------*/
+
+    /*---------------[AWAL RESPONSIVE Ekstra1 (TEAM) BY edi saputra#0137 & Egawa Mugni#4903]-------------*/
+    .team-area {
+        flex-wrap: wrap;
+        transition: 0.5s;
+        width: fit-content;
+    }
+
+    .single-team {
+        flex: auto;
+        width: fit-content;
+    }
+
+}
+
+
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .team-area {
+        width: fit-content;
+        display: block;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+    /*--------------[responsive decky]--------------*/
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+}
